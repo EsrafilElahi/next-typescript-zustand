@@ -1,6 +1,7 @@
 import { useStore } from "../lib/store";
 import shallow from "zustand/shallow";
 
+
 const useClock = () => {
   return useStore(
     (store) => ({ lastUpdate: store.lastUpdate, light: store.light }),

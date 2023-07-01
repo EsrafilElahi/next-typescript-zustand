@@ -4,6 +4,7 @@ import Counter from "./counter";
 import Nav from "./nav";
 import { useStore } from "../lib/store";
 
+
 export default function Page() {
   const { tick } = useStore();
 
