@@ -5,7 +5,7 @@ import { combine } from "zustand/middleware";
 
 let store: any;
 
-type InitialState = ReturnType<typeof getDefaultInitialState>;
+type InitialState = ReturnType<typeof getDefaultInitialState>; 
 type UseStoreState = typeof initializeStore extends (
   ...args: never
 ) => UseBoundStore<infer T>
